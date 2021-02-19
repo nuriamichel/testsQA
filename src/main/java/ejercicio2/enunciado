@@ -1,0 +1,50 @@
+ENUNCIADO:
+
+Se tiene un metodo para calcular la hora y fecha siguiente, dado que tenemos como 6 parametro
+
+DAY, MONTH, YEAR (no acepta negative year), HOUR, MINUTE, SECOND
+
+por ejemplo si yo le envio
+
+25 Febrero 2020  23 55 59 ------>  25 Febrero 2020 23:56:00
+31 Diciembre 2020 23 59 59 ----->  1  Enero 2021 00:00:00
+28 Febrero 2021 23 59 59 ---> 1 Marzo 2021 00:00:00
+28 Febrero 2020 23 59 59 ---> 29 Febrero 2020 00:00:00     --NOTA--> Solo los años bisiestos tienen febrero 29
+
+- Invalid Day : NN
+- Invalid Month : NN
+- Invalid Year : NN
+- Invalid Hour : NN
+- Invalid Minute : NN
+- Invalid Second : NN
+
+MESES Y DIAS
+-------------------------
+Enero: 1 - 31 dias
+Febrero: 1 - 28 dias  otro caso es si es bisiesto 1 - 29 dias
+Marzo: 1 - 31 dias
+Abril: 1 - 30 dias
+Mayo: 1 - 31 dias
+Junio: 1 - 30 dias
+Julio:  1 - 31 dias
+Agosto: 1 - 31 dias
+Septiembre: 1- 30 dias
+Octubre: 1 - 31 dias
+Noviembre: 1 - 30 dias
+Diciembre: 1 - 31 dias
+
+HORAS
+----------------------
+
+01 - 02 - 03 - 04 - 05 - 06 - 07 - 08 - 09 - 10 - 11 - 12
+13 - 14 - 15 - 16 - 17 - 18 - 19 - 20 - 21 - 22 - 23 - 00
+
+MINUTOS Y SEGUNDOS
+-----------------------
+00 - 59 minutos
+00 - 59 segundos
+
+NOTA: No usar la clase Date de java para realizar el proceso.
+
+
+
